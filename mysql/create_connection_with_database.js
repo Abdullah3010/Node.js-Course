@@ -7,8 +7,12 @@ var con = mysql.createConnection({
     password: "",
     database: "mytestdb"
 });
+console.log("Connected!");
+
 
 exports.con = function (db) {
+    console.log("Connected!");
+
     var con = mysql.createConnection({
         host: "localhost",
         user: "root",
