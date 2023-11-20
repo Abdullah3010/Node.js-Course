@@ -5,7 +5,7 @@ var transporter = nodemailer.createTransport(
         service: 'gmail',
         auth: {
             user: 'abdullah.mohamed102001@gmail.com',
-            pass: 'gwjtblebgbaubcwj'
+            pass: 'ervrjzjasmqecrwz'
         },
     }
 );
@@ -102,7 +102,7 @@ var htmlMailOpthions = {
     </html>`
 }
 
-transporter.sendMail(htmlMailOpthions, function (error, info) {
+transporter.sendMail(basicMailOpthions, function (error, info) {
     if (error) {
         console.log(error);
     } else {
